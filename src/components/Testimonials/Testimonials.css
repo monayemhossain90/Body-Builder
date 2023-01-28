@@ -1,0 +1,84 @@
+
+.testimonials{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+    margin-bottom: 5rem;
+}
+.left-t{
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    font-weight: bold;
+    gap:2rem;
+}
+
+.left-t>:nth-child(1){
+    color:var(--orange);
+    font-size: 1rem;
+
+}
+.left-t>:nth-child(2){
+    font-size: 2.5rem;
+}
+.left-t>:nth-child(3){
+    color:white;
+    font-size: 2.5rem;
+}
+.left-t>:nth-child(4){
+    text-transform: none;
+    color:white;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-weight: 300;
+
+}
+
+.right-t{
+    flex:1 ;
+    position: relative;
+}
+.right-t>img{
+    position:absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    top:3rem;
+    right:3rem;
+
+}
+
+.right-t>:nth-child(1){
+    width: 17rem;
+    height: 20rem;
+    border:2px solid var(--orange);
+    position:absolute;
+    top:2rem;
+    right:4rem;
+    background: transparent;
+}
+
+.right-t>:nth-child(2){
+    width: 17rem;
+    height: 20rem;
+    position:absolute;
+    bottom:-0.5rem;
+    right:2rem;
+    background:var(--planCard);
+}
+
+.arrows{
+    display: flex;
+    gap:1rem;
+    position:absolute;
+    bottom:1rem;
+    left:-1rem;
+}
+.arrows img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.arrows img:hover{
+    cursor: pointer;
+}
