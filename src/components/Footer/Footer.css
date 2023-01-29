@@ -1,0 +1,52 @@
+
+.footer-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  ;
+}
+.footer-container hr{
+    width: 100%;
+    color: #fff;
+
+   
+}
+
+.footer{
+    margin-top: 2rem;
+    display: flex;
+    gap:3rem;
+}
+
+.footer img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.footer-logo{
+    width: 10rem;
+    margin-bottom: 4rem
+}
+
+.footer-logo img{
+    width: 100%;
+}
+
+.footer-blur-1{
+    width: 20rem;
+    height: 12rem;
+    bottom: 0;
+    left: 15%;
+    background: rgb(255, 115, 0);
+    filter: blur(150px);
+}
+.footer-blur-2{
+    width: 20rem;
+    height: 12rem;
+    bottom: 0;
+    right: 15%;
+    background: red;
+    filter: blur(150px);
+}

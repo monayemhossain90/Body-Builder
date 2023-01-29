@@ -14,7 +14,7 @@
 }
 
 
-.right-j div{
+.right-j .email-container{
     display: flex;
      position: relative;
 }
@@ -24,12 +24,14 @@
     height: 3.5rem;
     background-color:var(--caloryCard);
     border:none;
+    outline: none;
+    color:white;
         
 }
 
 .right-j input::placeholder{
     color:white;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .right-j button{

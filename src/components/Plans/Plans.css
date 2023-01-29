@@ -22,3 +22,14 @@
     gap:3rem;
     align-items: center;
 }
+
+.plans-blur-1{
+    width: 22rem;
+    height: 30rem;
+    left:0;
+}
+.plans-blur-2{
+    width: 22rem;
+    height: 30rem;
+    right:0;
+}

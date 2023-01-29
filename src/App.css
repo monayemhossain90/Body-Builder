@@ -28,3 +28,11 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
 }
+
+.blur{
+  background: rgba(253, 120, 43, 0.80);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -9;
+  filter: blur(212px);
+}
