@@ -4,10 +4,14 @@ import Header from "../Header/Header";
 import hero from "../../assets/hero_image.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import heart from "../../assets/heart.png";
-import calorie from "../../assets/calories.png"
+import calorie from "../../assets/calories.png";
+import {motion} from "framer-motion";
+
 
 
 const Hero = () => {
+    const transition = {type:"spring",duration:3};
+
     return (
         <div className="hero">
             <div className="blur hero-blur"></div>
@@ -15,7 +19,11 @@ const Hero = () => {
                 <Header/>
                 {/*best add*/}
                 <div className="the-best-add">
-                    <div></div>
+                    <motion.div
+                    initial={{left:"238px"}}
+                    whileInView={{left:"8px"}}
+                    transition={{...transition,type:"tween"}}
+                    ></motion.div>
                     <span> The best fitness club in the town</span>
                 </div>
             {/*    hero head*/}
