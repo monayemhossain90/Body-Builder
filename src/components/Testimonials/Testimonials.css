@@ -4,6 +4,7 @@
     gap: 1rem;
     padding: 0 2rem;
     margin-bottom: 5rem;
+    position: relative;
 }
 .left-t{
     display: flex;
@@ -29,6 +30,7 @@
     text-transform: none;
     color:white;
     text-align: justify;
+    font-size: 0.8rem;
     letter-spacing: 2px;
     line-height: 40px;
     font-weight: 300;
@@ -39,17 +41,18 @@
     flex:1 ;
     position: relative;
 }
-.right-t>img{
-    position:absolute;
+.right-t> img{
+  
     width: 17rem;
     height: 20rem;
     object-fit: cover;
+    position: absolute;
     top:3rem;
-    right:3rem;
+    right:3rem; 
 
 }
 
-.right-t>:nth-child(1){
+.right-t-frame1{
     width: 17rem;
     height: 20rem;
     border:2px solid var(--orange);
@@ -59,7 +62,7 @@
     background: transparent;
 }
 
-.right-t>:nth-child(2){
+.right-t-frame2{
     width: 17rem;
     height: 20rem;
     position:absolute;

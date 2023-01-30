@@ -136,7 +136,7 @@ width: fit-content;
 padding: 1rem;
 gap: 1rem;
 position:absolute;
-top:7rem;left:5rem;
+ top:7rem;right:5rem; 
 border-radius:10px;
 
 }

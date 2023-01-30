@@ -10,13 +10,12 @@
 }
 
 .category:hover{
-    background-color:var(--orange);
+    background:var(--planCard);
 }
 
 .category>:nth-child(1){
     width: 2rem;
     height: 2rem;
-
     fill:white;
 }
 

@@ -10,7 +10,7 @@ import {motion} from "framer-motion";
 
 
 const Hero = () => {
-    const transition = {type:"spring",duration:3};
+    const transition = {type:"spring",duration:2};
 
     return (
         <div className="hero">
@@ -63,22 +63,30 @@ const Hero = () => {
             </div>
             <div className="right-h">
                 <button className="btn">Join Now</button>
-                <div className="heart-rate">
+                <motion.div className="heart-rate"
+                initial={{right:"-4rem"}}
+                whileInView={{right:"4rem"}}
+                transition={{...transition,type:"tween"}}
+                >
                     <img src={heart} alt="heart" />
                     <span>Heart Rate</span>
                     <span>116 BPM</span>
-                </div>
+                </motion.div>
                 {/* hero images */}
                 <img src={hero} className="heroImg" alt="hero" />
                 <img src={hero_image_back} className="heroImgBack" alt="hero back" />
                 {/* calorie images */}
-                <div className="calories">
+                <motion.div className="calories"
+                 initial={{right:"30rem"}}
+                 whileInView={{right:"25rem"}}
+                 transition={{...transition,type:"tween"}}
+                >
                 <img src={calorie} alt="hero back" />
                 <div>
                     <span>Calories burned</span>
                     <span>220 kcal</span>
                 </div>
-                </div>
+                </motion.div>
                 
             </div>
         </div>
